@@ -1,0 +1,32 @@
+# *.o
+# *.exe
+
+# Ignore everything
+*
+
+# Allow .c files
+!*.c
+
+# Allow .cpp files
+!*.cpp
+
+# Allow .h files
+!*.h
+
+# Allow .txt files
+!*.txt
+
+# Allow .py files
+!*.py
+
+# Allow .vscode folder
+!*.json
+
+# Allow .cph folder
+!*.prob
+
+# Allow .gitignore files
+!*.gitignore
+
+# Ensure folders are tracked (necessary for allowed files in subdirectories)
+!*/

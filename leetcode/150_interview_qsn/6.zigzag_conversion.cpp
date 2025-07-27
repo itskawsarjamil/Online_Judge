@@ -9,10 +9,8 @@ using namespace std;
 //         return s;
 //     }
 //     vector<string> rows(numRows);
-
 //     int currentRow = 0;
 //     bool goingDown = false;
-
 //     for (const char &c : s)
 //     {
 //         rows[currentRow] += c;
@@ -23,7 +21,6 @@ using namespace std;
 //         }
 //         currentRow += goingDown ? 1 : -1;
 //     }
-
 //     string result;
 //     for (const string &row : rows)
 //     {
